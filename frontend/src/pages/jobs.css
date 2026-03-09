@@ -1,0 +1,53 @@
+.jobs-page {
+  padding: 40px 20px;
+  background: #f9f9fb;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jobs-title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.jobs-title span {
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 🔥 UPDATED PART */
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards in one row */
+  gap: 25px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 1200px) {
+  .job-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .job-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .job-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.no-jobs {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-top: 50px;
+}

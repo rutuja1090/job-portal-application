@@ -1,0 +1,31 @@
+.job-details {
+  padding: 60px 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.job-details-card {
+  background: white;
+  padding: 35px;
+  border-radius: 22px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.job-details-card h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.job-details-card p {
+  margin-bottom: 12px;
+  color: #374151;
+}
+
+.back-btn {
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  color: #7b2ff7;
+  font-size: 16px;
+  cursor: pointer;
+}

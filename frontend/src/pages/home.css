@@ -1,0 +1,110 @@
+.home {
+  text-align: center;
+  padding: 100px 20px;
+  background: 
+    /* linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 255, 255, 0.9)
+    ), */
+    url("../assets/images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f3e8ff;
+  color: #6a0dad;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Heading */
+.home h1 {
+  font-size: 48px;
+  margin: 25px 0 15px;
+  line-height: 1.2;
+}
+
+.home h1 span {
+  color: #6a0dad;
+}
+
+/* Sub text */
+.sub {
+  color: #6b7280;
+  max-width: 650px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.search-box input {
+  width: 340px;
+  padding: 14px 18px;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 15px;
+}
+
+.search-box input:focus {
+  border-color: #6a0dad;
+}
+
+.search-box button {
+  padding: 14px 22px;
+  border-radius: 0 30px 30px 0;
+  border: none;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-box button:hover {
+  background: #6a0dad;
+}
+
+/* Category Title */
+.cat-title {
+  color: #6a0dad;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Categories */
+.categories {
+  margin-top: 10px;
+}
+
+.categories button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #111827;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categories button:hover {
+  background: #6a0dad;
+  transform: translateY(-2px);
+}

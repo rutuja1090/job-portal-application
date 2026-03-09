@@ -1,0 +1,116 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+}
+
+.login-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.login-image img {
+  width: 80%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.login-form {
+  flex: 1;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.login-form input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me label {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-btn {
+  background-color: purple;
+  color: white;
+  padding: 12px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.signup-link,
+.social-login {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.signup-link a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.google {
+  background-color: #db4437;
+}

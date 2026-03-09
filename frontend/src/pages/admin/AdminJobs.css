@@ -1,0 +1,46 @@
+.admin-jobs-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.admin-jobs-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.admin-jobs-container input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.admin-jobs-container input:focus {
+  border-color: #7b2ff7;
+}
+
+.admin-jobs-container button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-jobs-container button:hover {
+  transform: scale(1.03);
+}
